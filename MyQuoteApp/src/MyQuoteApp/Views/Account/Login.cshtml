@@ -1,0 +1,30 @@
+﻿@model MyQuoteApp.models.LoginViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+</head>
+<body>
+   <div>
+       <p>Login view</p>
+       @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+       {
+           @Html.AntiForgeryToken()
+           <div>
+               @Html.LabelFor(c => c.UserName)
+               @Html.TextBoxFor(c => c.UserName)
+               @Html.ValidationMessageFor(c => c.UserName)
+           </div>
+           <div>
+               @Html.LabelFor(c => c.Password)
+               @Html.PasswordFor(c => c.Password)
+               @Html.ValidationMessageFor(c => c.Password)
+           </div>
+           <div>
+               <input type="submit" value="Login" />
+           </div>
+       }
+   </div>
+</body>
+</htmlng-app="moviesApp">

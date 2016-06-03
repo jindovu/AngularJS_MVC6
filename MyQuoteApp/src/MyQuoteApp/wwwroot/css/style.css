@@ -1,0 +1,27 @@
+﻿input.ng-invalid.ng-touched {
+    background: hotpink;
+}
+
+input.ng-valid.ng-touched {
+    background: lightgreen;
+}
+
+.validationErrors {
+    color: red;
+}
+
+.sort-icon {
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+th {
+    cursor: pointer;
+}
+
+.icon-search {
+    float: right;
+    position: absolute;
+    right: 23px;
+    top: 9px;
+}

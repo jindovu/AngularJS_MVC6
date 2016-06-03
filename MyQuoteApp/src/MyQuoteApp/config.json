@@ -1,0 +1,8 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "Quotes"
+  },
+  "Data": {
+    "ConnectionString": "Server=HOACOI8X;Database=AngularMVC6;user Id=sa;password=123456;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}

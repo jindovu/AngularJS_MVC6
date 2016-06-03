@@ -1,0 +1,15 @@
+﻿<div>
+    <p> Add a new Quote</p>
+
+    <div class="validationErrors" ng-show="validationErrors">
+        <p ng-repeat="errMsg in validationErrors">{{errMsg}}</p>
+    </div>
+
+    <form name="addQuoteForm" novalidate ng-submit="addQuote()">
+      
+        <ng-include src="'/partials/_quote.html'"></ng-include>
+
+        <button type="submit" ng-disabled="addQuoteForm.$invalid">Save</button>
+        <a href="/">Cancel</a>
+    </form>
+</div>
