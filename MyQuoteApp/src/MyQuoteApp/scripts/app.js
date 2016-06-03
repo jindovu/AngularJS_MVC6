@@ -1,13 +1,10 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('myQuotesApp', [
-        "ngRoute",
-        "quotesService",
-        'angularUtils.directives.dirPagination'
-    ]);
+    var quoteApp = angular.module('myQuotesApp',
+        ["ngRoute", "quotesService", "angularUtils.directives.dirPagination", "angular-loading-bar"]);
 
-    angular.module('myQuotesApp').config(['$routeProvider', '$locationProvider',
+    quoteApp.config(['$routeProvider', '$locationProvider',
         function ($routeProvider, $locationProvider) {
 
             $routeProvider

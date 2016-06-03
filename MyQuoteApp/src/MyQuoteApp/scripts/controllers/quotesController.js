@@ -6,6 +6,7 @@
         .controller('quotesAddController', quotesAddController)
         .controller('quotesEditController', quotesEditController)
 
+  
     quotesController.$inject = ['$scope', '$filter', '$location', 'Quotes'];
     function quotesController($scope, $filter, $location, Quotes) {
         $scope.listQuotes = Quotes.query();

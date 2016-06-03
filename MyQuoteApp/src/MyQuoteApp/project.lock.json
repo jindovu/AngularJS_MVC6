@@ -3,6 +3,15 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
+      "AngularJS.Animate/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.5.5"
+        }
+      },
+      "AngularJS.Core/1.5.5": {
+        "type": "package"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1856,6 +1865,15 @@
       }
     },
     "DNXCore,Version=v5.0": {
+      "AngularJS.Animate/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.5.5"
+        }
+      },
+      "AngularJS.Core/1.5.5": {
+        "type": "package"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4330,6 +4348,15 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
+      "AngularJS.Animate/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.5.5"
+        }
+      },
+      "AngularJS.Core/1.5.5": {
+        "type": "package"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -6186,6 +6213,15 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
+      "AngularJS.Animate/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.5.5"
+        }
+      },
+      "AngularJS.Core/1.5.5": {
+        "type": "package"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -8042,6 +8078,15 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
+      "AngularJS.Animate/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.5.5"
+        }
+      },
+      "AngularJS.Core/1.5.5": {
+        "type": "package"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -11063,6 +11108,15 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
+      "AngularJS.Animate/1.5.5": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.5.5"
+        }
+      },
+      "AngularJS.Core/1.5.5": {
+        "type": "package"
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -14085,6 +14139,31 @@
     }
   },
   "libraries": {
+    "AngularJS.Animate/1.5.5": {
+      "type": "package",
+      "sha512": "nzgtllKZwRNNIftpvklIkRDUiGyQfIgdhoHg6+5tc/+2g9cLa6SWn01UFJj05wssy3pGh37g4DJs9JPM67ICHA==",
+      "files": [
+        "AngularJS.Animate.1.5.5.nupkg",
+        "AngularJS.Animate.1.5.5.nupkg.sha512",
+        "AngularJS.Animate.nuspec",
+        "content/Scripts/angular-animate.js",
+        "content/Scripts/angular-animate.min.js",
+        "content/Scripts/angular-animate.min.js.map"
+      ]
+    },
+    "AngularJS.Core/1.5.5": {
+      "type": "package",
+      "sha512": "d0oO6Rln3gOW520Cw8Q+KiDk654C23HHJwsuaOnLku1Lfc6Loacfo6hmg5BK5lXeGpBLUmPtv5pi7f1RJ/Fj2w==",
+      "files": [
+        "AngularJS.Core.1.5.5.nupkg",
+        "AngularJS.Core.1.5.5.nupkg.sha512",
+        "AngularJS.Core.nuspec",
+        "content/Scripts/angular.js",
+        "content/Scripts/angular.min.js",
+        "content/Scripts/angular.min.js.map",
+        "content/Scripts/angular-mocks.js"
+      ]
+    },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -19640,7 +19719,8 @@
       "EntityFramework.Commands >= 7.0.0-rc1-final",
       "Microsoft.Framework.Configuration.Json >= 1.0.0-beta8",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final",
-      "Microsoft.AspNet.Identity >= 3.0.0-rc1-final"
+      "Microsoft.AspNet.Identity >= 3.0.0-rc1-final",
+      "AngularJS.Animate >= 1.5.5"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []

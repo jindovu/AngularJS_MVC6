@@ -5,11 +5,10 @@
     "angular": "1.4.5",
     "angular-resource": "1.4.5",
     "angular-route": "1.4.5",
-    "jQuery": "2.2.4",
     "bootstrap": "3.3.5",
     "modernizr": "~2.6.2",
     "angular-utils-pagination": "0.11.1",
-    "angular-loading-bar": "0.9.0"
+    "jquery": "2.1.4"
   },
   "resolutions": {
     "angular": "~1.5"

@@ -22,5 +22,9 @@
     <DnxInvisibleContent Include="scripts\controllers\quotesDeleteController.js" />
     <DnxInvisibleContent Include="scripts\controllers\quotesEditController.js" />
   </ItemGroup>
+  <ItemGroup>
+    <DnxInvisibleFolder Include="wwwroot\lib\angular-loading-bar\" />
+    <DnxInvisibleFolder Include="wwwroot\lib\jquery\" />
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
